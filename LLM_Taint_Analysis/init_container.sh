@@ -1,1 +1,0 @@
-docker run -p 8888:8888 --name notebook -v //Users/peiying/Desktop/UCLA/Lab/docflow/:/home/jovyan/work -e JUPYTER_ENABLE_LAB=yes --env-file .env -it docflow_img
