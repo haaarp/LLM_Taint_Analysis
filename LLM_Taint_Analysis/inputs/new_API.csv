@@ -1,0 +1,106 @@
+keys,docs,real
+org.apache.commons.exec.environment_EnvironmentUtils_addVariableToEnvironment_(Map_String),Adds a key/value pair to the given environment.,sink
+org.apache.commons.exec.launcher_CommandLauncher_exec_,,sink
+org.apache.commons.exec_CommandLine_parse_(String),Create a command line from a string.,sink
+org.apache.commons.exec_CommandLine_parse_(String_Map),Create a command line from a string.,sink
+org.apache.commons.exec_CommandLine_addArguments_(String),Add multiple arguments.,sink
+org.apache.commons.exec_CommandLine_addArguments_(String_boolean),Add multiple arguments.,sink
+org.apache.commons.exec_CommandLine_addArguments_(String[]),,sink
+org.apache.commons.exec_CommandLine_addArguments_(String[]_boolean),,sink
+org.apache.commons.exec_Executor_execute_(CommandLine_Map),Executes a command synchronously.,sink
+org.apache.commons.exec_Executor_execute_(CommandLine_Map_ExecuteResultHandler),Executes a command asynchronously.,sink
+org.apache.commons.io_FileUtils_forceMkdir_(File),"Creates all directories for a File object, including any necessary but non-existent parent directories.",sink
+org.apache.commons.io_FileUtils_moveDirectory_(File_File),Moves a directory.,sink
+org.apache.commons.io_FileUtils_readFileToByteArray_(File),Reads the contents of a file into a byte array.,sink
+org.apache.commons.io_FileUtils_readFileToString_(File_Charset),Reads the contents of a file into a String.,sink
+org.apache.commons.io_FileUtils_writeLines_(File_String_Collection_String),"Writes the toString() value of each item in a collection to
+ the specified File line by line.",sink
+org.apache.commons.io_FileUtils_writeStringToFile_(File_String_Charset_boolean),"Writes a String to a file, creating the file if it does not exist.",sink
+org.apache.commons.io_FileUtils_copyInputStreamToFile_(InputStream_File),"Copies bytes from an InputStream source to a file
+ destination.",sink
+org.apache.commons.io_FileUtils_copyInputStreamToFile_(InputStream_File),"Copies bytes from an InputStream source to a file
+ destination.",sink
+org.apache.commons.io_FileUtils_copyToFile_(InputStream_File),Copies bytes from an InputStream source to a File destination.,sink
+org.apache.commons.io_FileUtils_copyToFile_(InputStream_File),Copies bytes from an InputStream source to a File destination.,sink
+org.apache.commons.io_FileUtils_openInputStream_(File),"Opens a FileInputStream for the specified file, providing better error messages than simply calling
+ new FileInputStream(file).",sink
+org.apache.commons.io_IOUtils_resourceToString_(String_Charset),Gets the contents of a resource as a String using the specified character encoding.,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(JellyContext_URL_URL),,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(JellyContext_URL_URL),,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(JellyContext_URL),,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(URL_URL),,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(URL_URL),,sink
+org.apache.commons.jelly_JellyContext_JellyContext_(URL),,sink
+org.apache.commons.jexl2_Expression_callable_,,sink
+org.apache.commons.jexl2_Expression_evaluate_,,sink
+org.apache.commons.jexl2_JexlEngine_getProperty_(JexlContext_Object_String),,sink
+org.apache.commons.jexl2_JexlEngine_getProperty_(Object_String),,sink
+org.apache.commons.jexl2_JexlEngine_setProperty_(JexlContext_Object_String_Object),,sink
+org.apache.commons.jexl2_JexlEngine_setProperty_(Object_String_Object),,sink
+org.apache.commons.jexl2_JexlExpression_callable_,,sink
+org.apache.commons.jexl2_JexlExpression_evaluate_,,sink
+org.apache.commons.jexl2_JexlScript_callable_,,sink
+org.apache.commons.jexl2_JexlScript_execute_,,sink
+org.apache.commons.jexl2_Script_callable_,,sink
+org.apache.commons.jexl2_Script_execute_,,sink
+org.apache.commons.jexl2_UnifiedJEXL$Expression_evaluate_,,sink
+org.apache.commons.jexl2_UnifiedJEXL$Expression_prepare_,,sink
+org.apache.commons.jexl2_UnifiedJEXL$Template_evaluate_,,sink
+org.apache.commons.jexl3_Expression_callable_,,sink
+org.apache.commons.jexl3_Expression_evaluate_,,sink
+org.apache.commons.jexl3_JexlEngine_getProperty_(JexlContext_Object_String),,sink
+org.apache.commons.jexl3_JexlEngine_getProperty_(Object_String),,sink
+org.apache.commons.jexl3_JexlEngine_setProperty_(JexlContext_Object_String),,sink
+org.apache.commons.jexl3_JexlEngine_setProperty_(Object_String_Object),,sink
+org.apache.commons.jexl3_JexlExpression_callable_,,sink
+org.apache.commons.jexl3_JexlExpression_evaluate_,,sink
+org.apache.commons.jexl3_JexlScript_callable_,,sink
+org.apache.commons.jexl3_JexlScript_execute_,,sink
+org.apache.commons.jexl3_JxltEngine$Expression_evaluate_,,sink
+org.apache.commons.jexl3_JxltEngine$Expression_prepare_,,sink
+org.apache.commons.jexl3_JxltEngine$Template_evaluate_,,sink
+org.apache.commons.jexl3_Script_callable_,,sink
+org.apache.commons.jexl3_Script_execute_,,sink
+org.apache.commons.lang3_RegExUtils_removeAll_(String_String),,sink
+org.apache.commons.lang3_RegExUtils_removeFirst_(String_String),,sink
+org.apache.commons.lang3_RegExUtils_removePattern_(String_String),,sink
+org.apache.commons.lang3_RegExUtils_replaceAll_(String_String_String),,sink
+org.apache.commons.lang3_RegExUtils_replaceFirst_(String_String_String),,sink
+org.apache.commons.lang3_RegExUtils_replacePattern_(String_String_String),,sink
+org.apache.commons.logging_Log_debug_,,sink
+org.apache.commons.logging_Log_error_,,sink
+org.apache.commons.logging_Log_fatal_,,sink
+org.apache.commons.logging_Log_info_,,sink
+org.apache.commons.logging_Log_trace_,,sink
+org.apache.commons.logging_Log_warn_,,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String),Login to the FTP server using the provided user and password.,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String),Login to the FTP server using the provided user and password.,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String_String),"Login to the FTP server using the provided username, password, and account.",sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String_String),"Login to the FTP server using the provided username, password, and account.",sink
+org.apache.commons.net_SocketClient_connect_(InetAddress),Opens a Socket connected to a remote host at the current default port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(InetAddress_int_InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the specified local address and port.,sink
+org.apache.commons.net_SocketClient_connect_(String),Opens a Socket connected to a remote host at the current default port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(String_int),Opens a Socket connected to a remote host at the specified port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(String_int_InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the specified local address and port.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(File_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(File_String_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(String_File_String_String_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.ftp_FTPClient_listDirectories_(),"Using the default system autodetect mechanism, obtain a list of directories contained in the current working directory.",source
+org.apache.commons.net.ftp_FTPClient_listDirectories_(String),"Using the default system autodetect mechanism, obtain a list of directories contained in the specified directory.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(),"Using the default system autodetect mechanism, obtain a list of file information for the current working directory.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(String),"Using the default system autodetect mechanism, obtain a list of file information for the current working directory or for just a single file.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(String_FTPFileFilter),Version of listFiles(String) which allows a filter to be provided.,source
+org.apache.commons.net.ftp_FTPClient_listNames_(),Obtain a list of file names in the current working directory This information is obtained through the NLST command.,source
+org.apache.commons.net.ftp_FTPClient_listNames_(String),"Obtain a list of file names in a directory (or just the name of a given file, which is not particularly useful).",source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(),Generate a directory listing for the current directory using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(String),Generate a directory listing using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(String_FTPFileFilter),Generate a directory listing using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_retrieveFile_(String_OutputStream),Retrieves a named file from the server and writes it to the given OutputStream.,source
+org.apache.commons.net.ftp_FTPClient_retrieveFileStream_(String),Returns an InputStream from which a named file from the server can be read.,source
+org.apache.commons.ognl.enhance_ExpressionAccessor_get_,,sink
+org.apache.commons.ognl.enhance_ExpressionAccessor_set_,,sink
+org.apache.commons.ognl_Node_getValue_,,sink
+org.apache.commons.ognl_Node_setValue_,,sink
+org.apache.commons.ognl_Ognl_getValue_,,sink
+org.apache.commons.ognl_Ognl_setValue_,,sink
