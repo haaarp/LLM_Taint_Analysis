@@ -1,1 +1,1 @@
-docker run -p 8888:8888 --name notebook -v //Users/peiying/Desktop/UCLA/Lab/docflow/:/home/jovyan/work -e JUPYTER_ENABLE_LAB=yes --env-file .env -it docflow_img
+docker run -p 8888:8888 --name notebook -v //Users/peiying/Desktop/UCLA/Lab/LLM_Taint_Analysis/LLM_Taint_Analysis/:/home/jovyan/work -e JUPYTER_ENABLE_LAB=yes --env-file .env -it docflow_img
