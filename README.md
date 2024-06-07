@@ -3,7 +3,7 @@ This project aims to address the inference of the taint specifications by integr
 
 # Getting started
 1. Clone this repo: git clone https://github.com/pei-ying-li/LLM_Taint_Analysis.git
-2. Create the docker image. Run the following command in the directory that contains the Dockerfile
+2. Create the Docker image by running the following command specifically in the directory where the Dockerfile is located:
     `docker build -t docflow_img .` 
 3. Go to the file [init_container.sh](init_container.sh) and set your local path pointing to the repository
 4. run `./init_container.sh`
