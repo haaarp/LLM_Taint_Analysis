@@ -1,0 +1,1215 @@
+[
+    {
+        "package": "android/location/GnssAntennaInfo.Listener",
+        "class_name": "GnssAntennaInfo.Listener",
+        "class_description": "Used for receiving GNSS antenna info from the GNSS engine.",
+        "name": "onGnssAntennaInfoReceived",
+        "arguments": [
+            "List<GnssAntennaInfo> gnssAntennaInfos"
+        ],
+        "retTpye": "abstract  void",
+        "doc": " Invoked on a change to GNSS antenna info."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "equals",
+        "arguments": [
+            "Object o"
+        ],
+        "retTpye": "boolean",
+        "doc": " Indicates whether some other object is \"equal to\" this one."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getCorrectionUncertaintiesArray",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double[][]",
+        "doc": " Array representing uncertainty on corrections on a spherical mapping."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getCorrectionsArray",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double[][]",
+        "doc": " Array representing corrections on a spherical mapping."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getDeltaPhi",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " The fixed phi angle separation between successive columns."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getDeltaTheta",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " The fixed theta angle separation between successive rows."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "hashCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a hash code value for the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel dest",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getAccuracy",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating desired accuracy of location."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getBearingAccuracy",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating the desired bearing accuracy."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getHorizontalAccuracy",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating the desired horizontal accuracy (latitude and longitude)."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getPowerRequirement",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating the desired maximum power requirement."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getSpeedAccuracy",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating the desired speed accuracy."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "getVerticalAccuracy",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a constant indicating the desired vertical accuracy (altitude)."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "isAltitudeRequired",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns whether the provider must provide altitude information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "isBearingRequired",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns whether the provider must provide bearing information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "isCostAllowed",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns whether the provider is allowed to incur monetary cost."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "isSpeedRequired",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns whether the provider must provide speed information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setAccuracy",
+        "arguments": [
+            "int accuracy"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired accuracy for latitude and longitude."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setAltitudeRequired",
+        "arguments": [
+            "boolean altitudeRequired"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates whether the provider must provide altitude information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setBearingAccuracy",
+        "arguments": [
+            "int accuracy"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired bearing accuracy."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setBearingRequired",
+        "arguments": [
+            "boolean bearingRequired"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates whether the provider must provide bearing information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setCostAllowed",
+        "arguments": [
+            "boolean costAllowed"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates whether the provider is allowed to incur monetary cost."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setHorizontalAccuracy",
+        "arguments": [
+            "int accuracy"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired horizontal accuracy (latitude and longitude)."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setPowerRequirement",
+        "arguments": [
+            "int powerRequirement"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired maximum power requirement."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setSpeedAccuracy",
+        "arguments": [
+            "int accuracy"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired speed accuracy."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setSpeedRequired",
+        "arguments": [
+            "boolean speedRequired"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates whether the provider must provide speed information."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "setVerticalAccuracy",
+        "arguments": [
+            "int accuracy"
+        ],
+        "retTpye": "void",
+        "doc": " Indicates the desired vertical accuracy (altitude)."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/Criteria",
+        "class_name": "Criteria",
+        "class_description": "",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel parcel",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "equals",
+        "arguments": [
+            "Object o"
+        ],
+        "retTpye": "boolean",
+        "doc": " Indicates whether some other object is \"equal to\" this one."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getXOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the x-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getXOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the x-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getYOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the y-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getYOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the y-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getZOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the z-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getZOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the z-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "hashCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a hash code value for the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel dest",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "build",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "GnssAntennaInfo",
+        "doc": " Build GnssAntennaInfo object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setCarrierFrequencyMHz",
+        "arguments": [
+            "double carrierFrequencyMHz"
+        ],
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set antenna carrier frequency (MHz)."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setPhaseCenterOffset",
+        "arguments": [
+            "GnssAntennaInfo.PhaseCenterOffset phaseCenterOffset"
+        ],
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set antenna phase center offset."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setPhaseCenterVariationCorrections",
+        "arguments": [
+            "GnssAntennaInfo.SphericalCorrections phaseCenterVariationCorrections"
+        ],
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set phase center variation corrections."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setSignalGainCorrections",
+        "arguments": [
+            "GnssAntennaInfo.SphericalCorrections signalGainCorrections"
+        ],
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set signal gain corrections."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "clearLatitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "void",
+        "doc": " Removes any latitude associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "clearLongitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "void",
+        "doc": " Removes any longitude associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getAddressLine",
+        "arguments": [
+            "int index"
+        ],
+        "retTpye": "String",
+        "doc": " Returns a line of the address numbered by the given index  (starting at 0), or null if no such line is present."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getAdminArea",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the administrative area name of the address, for example, \"CA\", or null if  it is unknown"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getCountryCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the country code of the address, for example \"US\",  or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getCountryName",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the localized country name of the address, for example \"Iceland\",  or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getExtras",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "Bundle",
+        "doc": " Returns additional provider-specific information about the  address as a Bundle."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getFeatureName",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the feature name of the address, for example, \"Golden Gate Bridge\", or null  if it is unknown"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getLatitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the latitude of the address if known."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getLocale",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "Locale",
+        "doc": " Returns the Locale associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getLocality",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the locality of the address, for example \"Mountain View\", or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getLongitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the longitude of the address if known."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getMaxAddressLineIndex",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns the largest index currently in use to specify an address line."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getPhone",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the phone number of the address if known,  or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getPostalCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the postal code of the address, for example \"94110\",  or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getPremises",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the premises of the address, or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getSubAdminArea",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the sub-administrative area name of the address, for example, \"Santa Clara County\",  or null if it is unknown"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getSubLocality",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the sub-locality of the address, or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getSubThoroughfare",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the sub-thoroughfare name of the address, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getThoroughfare",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the thoroughfare name of the address, for example, \"1600 Ampitheater Parkway\",  which may be null"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "getUrl",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns the public URL for the address if known,  or null if it is unknown."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "hasLatitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns true if a latitude has been assigned to this Address,  false otherwise."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "hasLongitude",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "boolean",
+        "doc": " Returns true if a longitude has been assigned to this Address,  false otherwise."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setAddressLine",
+        "arguments": [
+            "int index",
+            "String line"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the line of the address numbered by index (starting at 0) to the  given String, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setAdminArea",
+        "arguments": [
+            "String adminArea"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the administrative area name of the address to the given String, which may be null"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setCountryCode",
+        "arguments": [
+            "String countryCode"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the country code of the address to the given String, which may  be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setCountryName",
+        "arguments": [
+            "String countryName"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the country name of the address to the given String, which may  be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setExtras",
+        "arguments": [
+            "Bundle extras"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the extra information associated with this fix to the  given Bundle."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setFeatureName",
+        "arguments": [
+            "String featureName"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the feature name of the address to the given String, which may be null"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setLatitude",
+        "arguments": [
+            "double latitude"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the latitude associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setLocality",
+        "arguments": [
+            "String locality"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the locality of the address to the given String, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setLongitude",
+        "arguments": [
+            "double longitude"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the longitude associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setPhone",
+        "arguments": [
+            "String phone"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the phone number associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setPostalCode",
+        "arguments": [
+            "String postalCode"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the postal code of the address to the given String, which may  be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setPremises",
+        "arguments": [
+            "String premises"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the premises of the address to the given String, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setSubAdminArea",
+        "arguments": [
+            "String subAdminArea"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the sub-administrative area name of the address to the given String, which may be null"
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setSubLocality",
+        "arguments": [
+            "String sublocality"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the sub-locality of the address to the given String, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setSubThoroughfare",
+        "arguments": [
+            "String subthoroughfare"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the sub-thoroughfare name of the address, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setThoroughfare",
+        "arguments": [
+            "String thoroughfare"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the thoroughfare name of the address, which may be null."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "setUrl",
+        "arguments": [
+            "String Url"
+        ],
+        "retTpye": "void",
+        "doc": " Sets the public URL associated with this address."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/Address",
+        "class_name": "Address",
+        "class_description": "A class representing an Address, that is, a set of Strings describing a location. The address format is a simplified version of xAL (eXtensible Address Language) http://www.oasis-open.org/committees/ciq/ciq.html#6",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel parcel",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "equals",
+        "arguments": [
+            "Object o"
+        ],
+        "retTpye": "boolean",
+        "doc": " Indicates whether some other object is \"equal to\" this one."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getCarrierFrequencyMHz",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the center frequency of the corresponding carrier frequency band."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getPhaseCenterOffset",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "GnssAntennaInfo.PhaseCenterOffset",
+        "doc": " Returns a PhaseCenterOffset object encapsulating the phase center offset and  corresponding uncertainties in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getPhaseCenterVariationCorrections",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "GnssAntennaInfo.SphericalCorrections",
+        "doc": " Returns a SphericalCorrections object encapsulating the phase center variation  corrections and corresponding uncertainties in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getSignalGainCorrections",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "GnssAntennaInfo.SphericalCorrections",
+        "doc": " Returns a SphericalCorrections object encapsulating the signal gain  corrections and corresponding uncertainties in dBi."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "hashCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a hash code value for the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel parcel",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocation",
+        "arguments": [
+            "double latitude",
+            "double longitude",
+            "int maxResults"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocation(double, double, int, android.location.Geocoder.GeocodeListener) instead to  avoid blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocation",
+        "arguments": [
+            "double latitude",
+            "double longitude",
+            "int maxResults",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Provides an array of Addresses that attempt to describe the area immediately surrounding the  given latitude and longitude."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "double lowerLeftLatitude",
+            "double lowerLeftLongitude",
+            "double upperRightLatitude",
+            "double upperRightLongitude"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, double, double, double, double, android.location.Geocoder.GeocodeListener) instead to avoid blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "double lowerLeftLatitude",
+            "double lowerLeftLongitude",
+            "double upperRightLatitude",
+            "double upperRightLongitude",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Returns an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Provides an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, android.location.Geocoder.GeocodeListener) instead to avoid  blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "isPresent",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "static  boolean",
+        "doc": " Returns true if there is a geocoder implementation present on the device that may return  results."
+    }
+]

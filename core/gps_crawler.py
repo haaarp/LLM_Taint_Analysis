@@ -8,6 +8,7 @@ import json
 from bs4 import BeautifulSoup
 import requests
 import queue
+import os
 
 
 class LibraryParser:
@@ -172,8 +173,9 @@ def star_crawling(urls,output):
 if __name__ == "__main__":
     start = time.time()
 
-    input = '/home/jovyan/work/inputs/gps-libraries.txt'
-    output_file = '/home/jovyan/work/outputs/libraries-gps.json'
+    absolute_core_directory = os.path.abspath(os.path.dirname(__file__))
+    input = absolute_core_directory + '/../inputs/gps-libraries.txt'
+    output_file = absolute_core_directory + '/../outputs/libraries-gps.json'
 
 
     with open (input, 'r') as file_in:
