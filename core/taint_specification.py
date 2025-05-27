@@ -18,10 +18,12 @@ def generate_taint_spec(input_file,output_file):
     # auxiliar files 
     gps_class_df = core_utils.get_gps_map()
     aosp_class_map = core_utils.get_aosp_map()
+    print("hello")
     
     stmts = []
     for _,row in df.iterrows():
         args = eval(row['args'])
+        print("hello")
         if args[0] == '':
             args_fill = ''
         else:
