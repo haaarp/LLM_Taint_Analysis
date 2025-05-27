@@ -4,4 +4,7 @@
 .DS_Store
 *.ipynb_checkpoints
 *.env
+*.output/*
+*.outputs/*
+
 
