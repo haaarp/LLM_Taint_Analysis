@@ -1,0 +1,127 @@
+keys,docs,real
+org.apache.commons.codec_Decoder_decode_(Object),"Decodes an ""encoded"" Object and returns a ""decoded"" Object.",neither
+org.apache.commons.codec_Encoder_encode_(Object),"Encodes an ""Object"" and returns the encoded content as an Object.",neither
+org.apache.commons.codec_StringDecoder_decode_(String),Decodes a String and returns a String.,neither
+org.apache.commons.codec_StringEncoder_encode_(String),Encodes a String and returns a String.,neither
+org.apache.commons.exec.environment_EnvironmentUtils_addVariableToEnvironment_(Map_String),Adds a key/value pair to the given environment.,sink
+org.apache.commons.exec_CommandLine_parse_(String),Create a command line from a string.,sink
+org.apache.commons.exec_CommandLine_parse_(String_Map),Create a command line from a string.,sink
+org.apache.commons.exec_CommandLine_addArguments_(String),Add multiple arguments.,sink
+org.apache.commons.exec_CommandLine_addArguments_(String_boolean),Add multiple arguments.,sink
+org.apache.commons.exec_Executor_execute_(CommandLine_Map),Executes a command synchronously.,sink
+org.apache.commons.exec_Executor_execute_(CommandLine_Map_ExecuteResultHandler),Executes a command asynchronously.,sink
+org.apache.commons.io_FileUtils_listFiles_(File_IOFileFilter_IOFileFilter),"Finds files within a given directory (and optionally its
+ subdirectories).",neither
+org.apache.commons.io_IOUtils_toByteArray_(Reader),"Deprecated.
+Use toByteArray(Reader, Charset) instead",neither
+org.apache.commons.io_IOUtils_toByteArray_(Reader_String),"Gets the contents of a Reader as a byte[]
+ using the specified character encoding.",neither
+org.apache.commons.io_IOUtils_writeLines_(Collection_String_Writer),"Writes the Object.toString() value of each item in a collection to
+ a Writer line by line, using the specified line ending.",neither
+org.apache.commons.io_IOUtils_writeLines_(Collection_String_Writer),"Writes the Object.toString() value of each item in a collection to
+ a Writer line by line, using the specified line ending.",neither
+org.apache.commons.io_FileUtils_forceMkdir_(File),"Creates all directories for a File object, including any necessary but non-existent parent directories.",sink
+org.apache.commons.io_FileUtils_moveDirectory_(File_File),Moves a directory.,sink
+org.apache.commons.io_FileUtils_readFileToByteArray_(File),Reads the contents of a file into a byte array.,sink
+org.apache.commons.io_FileUtils_readFileToString_(File_Charset),Reads the contents of a file into a String.,sink
+org.apache.commons.io_FileUtils_writeLines_(File_String_Collection_String),"Writes the toString() value of each item in a collection to
+ the specified File line by line.",sink
+org.apache.commons.io_FileUtils_writeStringToFile_(File_String_Charset_boolean),"Writes a String to a file, creating the file if it does not exist.",sink
+org.apache.commons.io_FileUtils_copyInputStreamToFile_(InputStream_File),"Copies bytes from an InputStream source to a file
+ destination.",sink
+org.apache.commons.io_FileUtils_copyInputStreamToFile_(InputStream_File),"Copies bytes from an InputStream source to a file
+ destination.",sink
+org.apache.commons.io_FileUtils_copyToFile_(InputStream_File),Copies bytes from an InputStream source to a File destination.,sink
+org.apache.commons.io_FileUtils_copyToFile_(InputStream_File),Copies bytes from an InputStream source to a File destination.,sink
+org.apache.commons.io_FileUtils_openInputStream_(File),"Opens a FileInputStream for the specified file, providing better error messages than simply calling
+ new FileInputStream(file).",sink
+org.apache.commons.io_IOUtils_resourceToString_(String_Charset),Gets the contents of a resource as a String using the specified character encoding.,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String),Login to the FTP server using the provided user and password.,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String),Login to the FTP server using the provided user and password.,sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String_String),"Login to the FTP server using the provided username, password, and account.",sink
+org.apache.commons.net.ftp_FTPClient_login_(String_String_String),"Login to the FTP server using the provided username, password, and account.",sink
+org.apache.commons.net_SocketClient_connect_(InetAddress),Opens a Socket connected to a remote host at the current default port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(InetAddress_int_InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the specified local address and port.,sink
+org.apache.commons.net_SocketClient_connect_(String),Opens a Socket connected to a remote host at the current default port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(String_int),Opens a Socket connected to a remote host at the specified port and originating from the current host at a system assigned port.,sink
+org.apache.commons.net_SocketClient_connect_(String_int_InetAddress_int),Opens a Socket connected to a remote host at the specified port and originating from the specified local address and port.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(File_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(File_String_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.util_KeyManagerUtils_createClientKeyManager_(String_File_String_String_String),Create a client key manager which returns a particular key.,sink
+org.apache.commons.net.ftp_FTPClient_listDirectories_(),"Using the default system autodetect mechanism, obtain a list of directories contained in the current working directory.",source
+org.apache.commons.net.ftp_FTPClient_listDirectories_(String),"Using the default system autodetect mechanism, obtain a list of directories contained in the specified directory.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(),"Using the default system autodetect mechanism, obtain a list of file information for the current working directory.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(String),"Using the default system autodetect mechanism, obtain a list of file information for the current working directory or for just a single file.",source
+org.apache.commons.net.ftp_FTPClient_listFiles_(String_FTPFileFilter),Version of listFiles(String) which allows a filter to be provided.,source
+org.apache.commons.net.ftp_FTPClient_listNames_(),Obtain a list of file names in the current working directory This information is obtained through the NLST command.,source
+org.apache.commons.net.ftp_FTPClient_listNames_(String),"Obtain a list of file names in a directory (or just the name of a given file, which is not particularly useful).",source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(),Generate a directory listing for the current directory using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(String),Generate a directory listing using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_mlistDir_(String_FTPFileFilter),Generate a directory listing using the MLSD command.,source
+org.apache.commons.net.ftp_FTPClient_retrieveFile_(String_OutputStream),Retrieves a named file from the server and writes it to the given OutputStream.,source
+org.apache.commons.net.ftp_FTPClient_retrieveFileStream_(String),Returns an InputStream from which a named file from the server can be read.,source
+org.apache.commons.text_StrBuilder_appendAll_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendAll_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendAll_(Iterable),Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendAll_(Iterator),Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendNewLine_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendNull_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendWithSeparators_(Iterable_String),Deprecated.,neither
+org.apache.commons.text_StrBuilder_appendWithSeparators_(Iterator_String),Deprecated.,neither
+org.apache.commons.text_StrBuilder_asReader_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_asTokenizer_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_build_,"Deprecated.
+Use get().",neither
+org.apache.commons.text_StrBuilder_minimizeCapacity_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_reverse_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_toCharArray_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_toString_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_toStringBuffer_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_toStringBuilder_,Deprecated.,neither
+org.apache.commons.text_StrBuilder_trim_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_clone_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_getCSVInstance_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_getContent_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_getTSVInstance_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_getTokenArray_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_getTokenList_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_next_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_nextToken_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_previous_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_previousToken_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_reset_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_reset_,Deprecated.,neither
+org.apache.commons.text_StrTokenizer_toString_,Deprecated.,neither
+org.apache.commons.text_StringTokenizer_clone_,Creates a new instance of this Tokenizer.,neither
+org.apache.commons.text_StringTokenizer_getCSVInstance_,Gets a new tokenizer instance which parses Comma Separated Value strings initializing it with the given input.,neither
+org.apache.commons.text_StringTokenizer_getContent_,Gets the String content that the tokenizer is parsing.,neither
+org.apache.commons.text_StringTokenizer_getTSVInstance_,Gets a new tokenizer instance which parses Tab Separated Value strings.,neither
+org.apache.commons.text_StringTokenizer_getTokenArray_,Gets a copy of the full token list as an independent modifiable array.,neither
+org.apache.commons.text_StringTokenizer_getTokenList_,Gets a copy of the full token list as an independent modifiable list.,neither
+org.apache.commons.text_StringTokenizer_next_,Gets the next token.,neither
+org.apache.commons.text_StringTokenizer_nextToken_,Gets the next token from the String.,neither
+org.apache.commons.text_StringTokenizer_previous_,Gets the token previous to the last returned token.,neither
+org.apache.commons.text_StringTokenizer_previousToken_,Gets the previous token from the String.,neither
+org.apache.commons.text_StringTokenizer_reset_,"Resets this tokenizer, forgetting all parsing and iteration already completed.",neither
+org.apache.commons.text_StringTokenizer_reset_,"Resets this tokenizer, forgetting all parsing and iteration already completed.",neither
+org.apache.commons.text_StringTokenizer_toString_,Gets the String content that the tokenizer is parsing.,neither
+org.apache.commons.text_TextStringBuilder_appendAll_,Appends each item in an array to the builder without any separators.,neither
+org.apache.commons.text_TextStringBuilder_appendAll_,Appends each item in an array to the builder without any separators.,neither
+org.apache.commons.text_TextStringBuilder_appendAll_(Iterable),Appends each item in an iterable to the builder without any separators.,neither
+org.apache.commons.text_TextStringBuilder_appendAll_(Iterator),Appends each item in an iterator to the builder without any separators.,neither
+org.apache.commons.text_TextStringBuilder_appendNewLine_,Appends the new line string to this string builder.,neither
+org.apache.commons.text_TextStringBuilder_appendNull_,Appends the text representing null to this string builder.,neither
+org.apache.commons.text_TextStringBuilder_appendWithSeparators_(Iterable_String),"Appends an iterable placing separators between each value, but not before the first or after the last.",neither
+org.apache.commons.text_TextStringBuilder_appendWithSeparators_(Iterator_String),"Appends an iterator placing separators between each value, but not before the first or after the last.",neither
+org.apache.commons.text_TextStringBuilder_asReader_,Gets the contents of this builder as a Reader.,neither
+org.apache.commons.text_TextStringBuilder_asTokenizer_,Creates a tokenizer that can tokenize the contents of this builder.,neither
+org.apache.commons.text_TextStringBuilder_build_,"Deprecated.
+Use get().",neither
+org.apache.commons.text_TextStringBuilder_minimizeCapacity_,Minimizes the capacity to the actual length of the string.,neither
+org.apache.commons.text_TextStringBuilder_reverse_,Reverses the string builder placing each character in the opposite index.,neither
+org.apache.commons.text_TextStringBuilder_toCharArray_,Copies the builder's character array into a new character array.,neither
+org.apache.commons.text_TextStringBuilder_toString_,"Gets a String version of the string builder, creating a new instance each time the method is called.",neither
+org.apache.commons.text_TextStringBuilder_toStringBuffer_,"Gets a StringBuffer version of the string builder, creating a new instance each time the method is called.",neither
+org.apache.commons.text_TextStringBuilder_toStringBuilder_,"Gets a StringBuilder version of the string builder, creating a new instance each time the method is called.",neither
+org.apache.commons.text_TextStringBuilder_trim_,Trims the builder by removing characters less than or equal to a space from the beginning and end.,neither
