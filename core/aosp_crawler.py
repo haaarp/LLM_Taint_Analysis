@@ -5,9 +5,10 @@ import re
 from bs4 import BeautifulSoup
 import multiprocessing as mp 
 import time
-
+import os
 
 class PublicAPI:
+
 
     def __init__(self, name, arguments, retType, doc, class_name,package,class_description):
         self.package = package
@@ -134,7 +135,9 @@ if __name__ == "__main__":
     #     urls = f.read().splitlines()
     #     urls = [x for x in urls if x.split('/')[-1][0].isupper()]
 
-    star_crawling(input_example,'/home/jovyan/work/outputs/output_aosp.json')
+    absolute_dirpath = os.path.abspath(os.path.dirname(__file__))
+
+    star_crawling(input_example, absolute_dirpath + '/../outputs/output_aosp.json')
     end = time.time()
     sec = end - start
     print(f'script finished. Processing took {sec} seconds')
