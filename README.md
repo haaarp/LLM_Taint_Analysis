@@ -1,9 +1,10 @@
-# Evaluation of Information Flows Specifications from Software Documentation
 # DocFlow: Extracting Taint Specifications from Software Documentation
+
+Evaluation of Information Flows Specifications from Software Documentation
 
 ## Supplementary Material
 
-This is the repository of the DocFlow analysis framework and supplementary material for the paper: 
+This is a fork of the repository of the DocFlow analysis framework and supplementary material for the paper: 
 Tileria, Marcos, Jorge Blasco, and Santanu Kumar Dash. “DocFlow: Extracting Taint Specifications from Software Documentation.”
 [Link to article](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a718/1RLIWDGe50s) ,
 and temporal [file](evaluation/ICSE_DocFlow_camera_ready.pdf)
@@ -32,8 +33,6 @@ DocFlow includes:
 4. run `./init_container.sh`
 5. Go to http://localhost:8888/lab or the link showed in the terminal
 6. Open the [paper_results.ipynb](experiments/paper_results.ipynb) and follow the instructions
-
-
 
 
 
