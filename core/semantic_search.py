@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas 
 from sentence_transformers import SentenceTransformer, util
 
 def parse_hits(hit_list):

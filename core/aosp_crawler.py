@@ -1,9 +1,9 @@
 import json
 import requests
-import pandas as pd
+import pandas as pandas
 import re
 from bs4 import BeautifulSoup
-import multiprocessing as mp 
+import multiprocessing 
 import time
 import os
 
@@ -38,7 +38,7 @@ def parse_url(url):
         class_description = get_class_description(soup,url)
 
         for table in soup.find_all('table', attrs={"class":"responsive methods","id":"pubmethods"}):
-            df = pd.read_html(str(table))[0]
+            df = pandas.read_html(str(table))[0]
             for idx, r in df.iterrows():
                 retType = r['Public methods']
                 s = re.split(r'\(|\) ', str(r['Public methods.1']), maxsplit=2)
@@ -93,10 +93,9 @@ def parse_class_description(url):
         return {'error':f'{url}:{e}'}
     return {'success':tmp}
 
-
 def star_crawling(urls,output_file):
     print('start script')
-    pool = mp.Pool(mp.cpu_count() - 2) 
+    pool = multiprocessing.Pool(multiprocessing.cpu_count() - 2) 
     for url in urls:
         pool.apply_async(parse_url,args=([url]),callback=collect_results)
 

@@ -1,5 +1,127 @@
 [
     {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "describeContents",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "equals",
+        "arguments": [
+            "Object o"
+        ],
+        "retTpye": "boolean",
+        "doc": " Indicates whether some other object is \"equal to\" this one."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getXOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the x-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getXOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the x-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getYOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the y-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getYOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the y-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getZOffsetMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the z-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "getZOffsetUncertaintyMm",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double",
+        "doc": " Returns the 1-sigma uncertainty of the z-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "hashCode",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "int",
+        "doc": " Returns a hash code value for the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "toString",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "String",
+        "doc": " Returns a string representation of the object."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
+        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
+        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "name": "writeToParcel",
+        "arguments": [
+            "Parcel dest",
+            "int flags"
+        ],
+        "retTpye": "void",
+        "doc": " Flatten this object in to a Parcel."
+    },
+    {
         "package": "android/location/GnssAntennaInfo.Listener",
         "class_name": "GnssAntennaInfo.Listener",
         "class_description": "Used for receiving GNSS antenna info from the GNSS engine.",
@@ -11,104 +133,59 @@
         "doc": " Invoked on a change to GNSS antenna info."
     },
     {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "describeContents",
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "build",
         "arguments": [
             ""
         ],
-        "retTpye": "int",
-        "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
+        "retTpye": "GnssAntennaInfo",
+        "doc": " Build GnssAntennaInfo object."
     },
     {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "equals",
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setCarrierFrequencyMHz",
         "arguments": [
-            "Object o"
+            "double carrierFrequencyMHz"
         ],
-        "retTpye": "boolean",
-        "doc": " Indicates whether some other object is \"equal to\" this one."
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set antenna carrier frequency (MHz)."
     },
     {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "getCorrectionUncertaintiesArray",
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setPhaseCenterOffset",
         "arguments": [
-            ""
+            "GnssAntennaInfo.PhaseCenterOffset phaseCenterOffset"
         ],
-        "retTpye": "double[][]",
-        "doc": " Array representing uncertainty on corrections on a spherical mapping."
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set antenna phase center offset."
     },
     {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "getCorrectionsArray",
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setPhaseCenterVariationCorrections",
         "arguments": [
-            ""
+            "GnssAntennaInfo.SphericalCorrections phaseCenterVariationCorrections"
         ],
-        "retTpye": "double[][]",
-        "doc": " Array representing corrections on a spherical mapping."
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set phase center variation corrections."
     },
     {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "getDeltaPhi",
+        "package": "android/location/GnssAntennaInfo.Builder",
+        "class_name": "GnssAntennaInfo.Builder",
+        "class_description": "Builder class for GnssAntennaInfo.",
+        "name": "setSignalGainCorrections",
         "arguments": [
-            ""
+            "GnssAntennaInfo.SphericalCorrections signalGainCorrections"
         ],
-        "retTpye": "double",
-        "doc": " The fixed phi angle separation between successive columns."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "getDeltaTheta",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "double",
-        "doc": " The fixed theta angle separation between successive rows."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "hashCode",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "int",
-        "doc": " Returns a hash code value for the object."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "toString",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "String",
-        "doc": " Returns a string representation of the object."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
-        "class_name": "GnssAntennaInfo.SphericalCorrections",
-        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
-        "name": "writeToParcel",
-        "arguments": [
-            "Parcel dest",
-            "int flags"
-        ],
-        "retTpye": "void",
-        "doc": " Flatten this object in to a Parcel."
+        "retTpye": "GnssAntennaInfo.Builder",
+        "doc": " Set signal gain corrections."
     },
     {
         "package": "android/location/Criteria",
@@ -365,9 +442,105 @@
         "doc": " Flatten this object in to a Parcel."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocation",
+        "arguments": [
+            "double latitude",
+            "double longitude",
+            "int maxResults"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocation(double, double, int, android.location.Geocoder.GeocodeListener) instead to  avoid blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocation",
+        "arguments": [
+            "double latitude",
+            "double longitude",
+            "int maxResults",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Provides an array of Addresses that attempt to describe the area immediately surrounding the  given latitude and longitude."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "double lowerLeftLatitude",
+            "double lowerLeftLongitude",
+            "double upperRightLatitude",
+            "double upperRightLongitude"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, double, double, double, double, android.location.Geocoder.GeocodeListener) instead to avoid blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "double lowerLeftLatitude",
+            "double lowerLeftLongitude",
+            "double upperRightLatitude",
+            "double upperRightLongitude",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Returns an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults",
+            "Geocoder.GeocodeListener listener"
+        ],
+        "retTpye": "void",
+        "doc": " Provides an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "getFromLocationName",
+        "arguments": [
+            "String locationName",
+            "int maxResults"
+        ],
+        "retTpye": "List<Address>",
+        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, android.location.Geocoder.GeocodeListener) instead to avoid  blocking a thread waiting for results."
+    },
+    {
+        "package": "android/location/Geocoder",
+        "class_name": "Geocoder",
+        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
+        "name": "isPresent",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "static  boolean",
+        "doc": " Returns true if there is a geocoder implementation present on the device that may return  results."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
         "name": "describeContents",
         "arguments": [
             ""
@@ -376,9 +549,9 @@
         "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
         "name": "equals",
         "arguments": [
             "Object o"
@@ -387,75 +560,53 @@
         "doc": " Indicates whether some other object is \"equal to\" this one."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getXOffsetMm",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getCarrierFrequencyMHz",
         "arguments": [
             ""
         ],
         "retTpye": "double",
-        "doc": " Returns the x-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+        "doc": " Returns the center frequency of the corresponding carrier frequency band."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getXOffsetUncertaintyMm",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getPhaseCenterOffset",
         "arguments": [
             ""
         ],
-        "retTpye": "double",
-        "doc": " Returns the 1-sigma uncertainty of the x-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+        "retTpye": "GnssAntennaInfo.PhaseCenterOffset",
+        "doc": " Returns a PhaseCenterOffset object encapsulating the phase center offset and  corresponding uncertainties in millimeters."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getYOffsetMm",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getPhaseCenterVariationCorrections",
         "arguments": [
             ""
         ],
-        "retTpye": "double",
-        "doc": " Returns the y-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
+        "retTpye": "GnssAntennaInfo.SphericalCorrections",
+        "doc": " Returns a SphericalCorrections object encapsulating the phase center variation  corrections and corresponding uncertainties in millimeters."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getYOffsetUncertaintyMm",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "name": "getSignalGainCorrections",
         "arguments": [
             ""
         ],
-        "retTpye": "double",
-        "doc": " Returns the 1-sigma uncertainty of the y-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
+        "retTpye": "GnssAntennaInfo.SphericalCorrections",
+        "doc": " Returns a SphericalCorrections object encapsulating the signal gain  corrections and corresponding uncertainties in dBi."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getZOffsetMm",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "double",
-        "doc": " Returns the z-axis offset of the phase center from the origin of the Android sensor  coordinate system, in millimeters."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
-        "name": "getZOffsetUncertaintyMm",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "double",
-        "doc": " Returns the 1-sigma uncertainty of the z-axis offset of the phase center from the origin  of the Android sensor coordinate system, in millimeters."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
         "name": "hashCode",
         "arguments": [
             ""
@@ -464,9 +615,9 @@
         "doc": " Returns a hash code value for the object."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
         "name": "toString",
         "arguments": [
             ""
@@ -475,71 +626,16 @@
         "doc": " Returns a string representation of the object."
     },
     {
-        "package": "android/location/GnssAntennaInfo.PhaseCenterOffset",
-        "class_name": "GnssAntennaInfo.PhaseCenterOffset",
-        "class_description": "Class containing information about the antenna phase center offset (PCO). PCO is defined with respect to the origin of the Android sensor coordinate system, e.g., center of primary screen for mobiles - see sensor or form factor documents for details. Uncertainties are reported to 1-sigma.",
+        "package": "android/location/GnssAntennaInfo",
+        "class_name": "GnssAntennaInfo",
+        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
         "name": "writeToParcel",
         "arguments": [
-            "Parcel dest",
+            "Parcel parcel",
             "int flags"
         ],
         "retTpye": "void",
         "doc": " Flatten this object in to a Parcel."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.Builder",
-        "class_name": "GnssAntennaInfo.Builder",
-        "class_description": "Builder class for GnssAntennaInfo.",
-        "name": "build",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "GnssAntennaInfo",
-        "doc": " Build GnssAntennaInfo object."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.Builder",
-        "class_name": "GnssAntennaInfo.Builder",
-        "class_description": "Builder class for GnssAntennaInfo.",
-        "name": "setCarrierFrequencyMHz",
-        "arguments": [
-            "double carrierFrequencyMHz"
-        ],
-        "retTpye": "GnssAntennaInfo.Builder",
-        "doc": " Set antenna carrier frequency (MHz)."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.Builder",
-        "class_name": "GnssAntennaInfo.Builder",
-        "class_description": "Builder class for GnssAntennaInfo.",
-        "name": "setPhaseCenterOffset",
-        "arguments": [
-            "GnssAntennaInfo.PhaseCenterOffset phaseCenterOffset"
-        ],
-        "retTpye": "GnssAntennaInfo.Builder",
-        "doc": " Set antenna phase center offset."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.Builder",
-        "class_name": "GnssAntennaInfo.Builder",
-        "class_description": "Builder class for GnssAntennaInfo.",
-        "name": "setPhaseCenterVariationCorrections",
-        "arguments": [
-            "GnssAntennaInfo.SphericalCorrections phaseCenterVariationCorrections"
-        ],
-        "retTpye": "GnssAntennaInfo.Builder",
-        "doc": " Set phase center variation corrections."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo.Builder",
-        "class_name": "GnssAntennaInfo.Builder",
-        "class_description": "Builder class for GnssAntennaInfo.",
-        "name": "setSignalGainCorrections",
-        "arguments": [
-            "GnssAntennaInfo.SphericalCorrections signalGainCorrections"
-        ],
-        "retTpye": "GnssAntennaInfo.Builder",
-        "doc": " Set signal gain corrections."
     },
     {
         "package": "android/location/Address",
@@ -1017,9 +1113,9 @@
         "doc": " Flatten this object in to a Parcel."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
         "name": "describeContents",
         "arguments": [
             ""
@@ -1028,9 +1124,9 @@
         "doc": " Describe the kinds of special objects contained in this Parcelable  instance's marshaled representation."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
         "name": "equals",
         "arguments": [
             "Object o"
@@ -1039,53 +1135,53 @@
         "doc": " Indicates whether some other object is \"equal to\" this one."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
-        "name": "getCarrierFrequencyMHz",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getCorrectionUncertaintiesArray",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double[][]",
+        "doc": " Array representing uncertainty on corrections on a spherical mapping."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getCorrectionsArray",
+        "arguments": [
+            ""
+        ],
+        "retTpye": "double[][]",
+        "doc": " Array representing corrections on a spherical mapping."
+    },
+    {
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getDeltaPhi",
         "arguments": [
             ""
         ],
         "retTpye": "double",
-        "doc": " Returns the center frequency of the corresponding carrier frequency band."
+        "doc": " The fixed phi angle separation between successive columns."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
-        "name": "getPhaseCenterOffset",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
+        "name": "getDeltaTheta",
         "arguments": [
             ""
         ],
-        "retTpye": "GnssAntennaInfo.PhaseCenterOffset",
-        "doc": " Returns a PhaseCenterOffset object encapsulating the phase center offset and  corresponding uncertainties in millimeters."
+        "retTpye": "double",
+        "doc": " The fixed theta angle separation between successive rows."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
-        "name": "getPhaseCenterVariationCorrections",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "GnssAntennaInfo.SphericalCorrections",
-        "doc": " Returns a SphericalCorrections object encapsulating the phase center variation  corrections and corresponding uncertainties in millimeters."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
-        "name": "getSignalGainCorrections",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "GnssAntennaInfo.SphericalCorrections",
-        "doc": " Returns a SphericalCorrections object encapsulating the signal gain  corrections and corresponding uncertainties in dBi."
-    },
-    {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
         "name": "hashCode",
         "arguments": [
             ""
@@ -1094,9 +1190,9 @@
         "doc": " Returns a hash code value for the object."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
         "name": "toString",
         "arguments": [
             ""
@@ -1105,111 +1201,15 @@
         "doc": " Returns a string representation of the object."
     },
     {
-        "package": "android/location/GnssAntennaInfo",
-        "class_name": "GnssAntennaInfo",
-        "class_description": "A class that contains information about a GNSS antenna. GNSS antenna characteristics can change with device configuration, such as when a device is folded open or closed. Antenna information is delivered to registered instances of Listener.",
+        "package": "android/location/GnssAntennaInfo.SphericalCorrections",
+        "class_name": "GnssAntennaInfo.SphericalCorrections",
+        "class_description": "Represents corrections on a spherical mapping. Corrections are added to measurements to obtain the corrected values. The corrections and associated (1-sigma) uncertainties are represented by respect 2D arrays. Each row (major indices) represents a fixed theta. The first row corresponds to a theta angle of 0 degrees. The last row corresponds to a theta angle of (360 - deltaTheta) degrees, where deltaTheta is the regular spacing between azimuthal angles, i.e., deltaTheta = 360 / (number of rows). The columns (minor indices) represent fixed zenith angles, beginning at 0 degrees and ending at 180 degrees. They are separated by deltaPhi, the regular spacing between zenith angles, i.e., deltaPhi = 180 / (number of columns - 1).",
         "name": "writeToParcel",
         "arguments": [
-            "Parcel parcel",
+            "Parcel dest",
             "int flags"
         ],
         "retTpye": "void",
         "doc": " Flatten this object in to a Parcel."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocation",
-        "arguments": [
-            "double latitude",
-            "double longitude",
-            "int maxResults"
-        ],
-        "retTpye": "List<Address>",
-        "doc": " This method was deprecated  in API level 33.  Use getFromLocation(double, double, int, android.location.Geocoder.GeocodeListener) instead to  avoid blocking a thread waiting for results."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocation",
-        "arguments": [
-            "double latitude",
-            "double longitude",
-            "int maxResults",
-            "Geocoder.GeocodeListener listener"
-        ],
-        "retTpye": "void",
-        "doc": " Provides an array of Addresses that attempt to describe the area immediately surrounding the  given latitude and longitude."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocationName",
-        "arguments": [
-            "String locationName",
-            "int maxResults",
-            "double lowerLeftLatitude",
-            "double lowerLeftLongitude",
-            "double upperRightLatitude",
-            "double upperRightLongitude"
-        ],
-        "retTpye": "List<Address>",
-        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, double, double, double, double, android.location.Geocoder.GeocodeListener) instead to avoid blocking a thread waiting for results."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocationName",
-        "arguments": [
-            "String locationName",
-            "int maxResults",
-            "double lowerLeftLatitude",
-            "double lowerLeftLongitude",
-            "double upperRightLatitude",
-            "double upperRightLongitude",
-            "Geocoder.GeocodeListener listener"
-        ],
-        "retTpye": "void",
-        "doc": " Returns an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocationName",
-        "arguments": [
-            "String locationName",
-            "int maxResults",
-            "Geocoder.GeocodeListener listener"
-        ],
-        "retTpye": "void",
-        "doc": " Provides an array of Addresses that attempt to describe the named location, which may be a  place name such as \"Dalvik, Iceland\", an address such as \"1600 Amphitheatre Parkway, Mountain  View, CA\", an airport code such as \"SFO\", and so forth."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "getFromLocationName",
-        "arguments": [
-            "String locationName",
-            "int maxResults"
-        ],
-        "retTpye": "List<Address>",
-        "doc": " This method was deprecated  in API level 33.  Use getFromLocationName(java.lang.String, int, android.location.Geocoder.GeocodeListener) instead to avoid  blocking a thread waiting for results."
-    },
-    {
-        "package": "android/location/Geocoder",
-        "class_name": "Geocoder",
-        "class_description": "A class for handling geocoding and reverse geocoding. Geocoding is the process of transforming a street address or other description of a location into a (latitude, longitude) coordinate. Reverse geocoding is the process of transforming a (latitude, longitude) coordinate into a (partial) address. The amount of detail in a reverse geocoded location description may vary, for example one might contain the full street address of the closest building, while another might contain only a city name and postal code.",
-        "name": "isPresent",
-        "arguments": [
-            ""
-        ],
-        "retTpye": "static  boolean",
-        "doc": " Returns true if there is a geocoder implementation present on the device that may return  results."
     }
 ]
